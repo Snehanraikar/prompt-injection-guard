@@ -1,0 +1,25 @@
+# local environment / caches (rebuilt in the cloud)
+.venv/
+.cache/
+__pycache__/
+*.pyc
+logs/
+cloudflared
+
+# raw Kaggle data is downloaded by `python main.py download`; InjecAgent is small and kept
+data/raw/*
+!data/raw/injecagent/
+data/processed/score_cache/
+data/processed/text_corpus.csv
+data/processed/obs_segment_scores_stacked_ensemble.json
+
+# generated / bulky
+paper/node_modules/
+paper/preview/
+*.zip
+results/*.log
+results/*alerts*.jsonl
+results/demo_audit_log.jsonl
+
+# user file, not part of the project (add explicitly if wanted)
+SuperDoc.docx

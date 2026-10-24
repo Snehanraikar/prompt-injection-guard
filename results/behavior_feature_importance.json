@@ -1,0 +1,20 @@
+{
+  "sim_suspicious": 0.2889,
+  "name_overlap": 0.2597,
+  "drift": 0.1841,
+  "arg_from_user": 0.0602,
+  "goal_sim": 0.0421,
+  "arg_from_obs_only": 0.039,
+  "step": 0.0332,
+  "outbound": 0.0277,
+  "new_toolkit": 0.0199,
+  "risk_level": 0.0162,
+  "new_contact": 0.0094,
+  "susp_overlap": 0.0072,
+  "toolkit_in_goal": 0.0048,
+  "obs_sim": 0.0031,
+  "n_atoms": 0.0019,
+  "exfil_flow": 0.0017,
+  "obs_inj_max": 0.0006,
+  "obs_inj_last": 0.0002
+}

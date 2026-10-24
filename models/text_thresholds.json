@@ -1,0 +1,15 @@
+{
+  "thresholds": {
+    "tfidf_lr": 0.6207895015852459,
+    "minilm_xgb": 0.29822245240211487,
+    "protectai_deberta_v2": 3.6954879760742188e-06,
+    "wolf_defender": 0.014916539192199707,
+    "stacked_ensemble": 0.40796902635042187
+  },
+  "ensemble_weights": {
+    "tfidf_lr": 0.692,
+    "minilm_xgb": 0.385,
+    "protectai_deberta_v2": 0.09,
+    "wolf_defender": 0.048
+  }
+}

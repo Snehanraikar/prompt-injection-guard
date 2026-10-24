@@ -1,0 +1,71 @@
+protocol,model,scenario,actions,flag_rate_benign_actions,detection_rate_malicious
+unseen_attacker_goals,rule_baseline (L1 flag + risky tool),benign,1054,0.0,
+unseen_attacker_goals,rule_baseline (L1 flag + risky tool),benign_sensitive,2652,0.17458521870286575,
+unseen_attacker_goals,rule_baseline (L1 flag + risky tool),injected_hijacked,5304,0.0,0.6270337922403004
+unseen_attacker_goals,rule_baseline (L1 flag + risky tool),injected_legit_mix,5310,0.3741996233521657,
+unseen_attacker_goals,rule_baseline (L1 flag + risky tool),injected_resisted,2108,0.0,
+unseen_attacker_goals,text_only_lr (L1 scores),benign,1054,0.0,
+unseen_attacker_goals,text_only_lr (L1 scores),benign_sensitive,2652,0.09615384615384616,
+unseen_attacker_goals,text_only_lr (L1 scores),injected_hijacked,5304,0.0,0.2693992490613267
+unseen_attacker_goals,text_only_lr (L1 scores),injected_legit_mix,5310,0.16327683615819208,
+unseen_attacker_goals,text_only_lr (L1 scores),injected_resisted,2108,0.0,
+unseen_attacker_goals,isolation_forest (unsupervised),benign,1054,0.0,
+unseen_attacker_goals,isolation_forest (unsupervised),benign_sensitive,2652,0.08484162895927602,
+unseen_attacker_goals,isolation_forest (unsupervised),injected_hijacked,5304,0.0,0.9080100125156445
+unseen_attacker_goals,isolation_forest (unsupervised),injected_legit_mix,5310,0.05687382297551789,
+unseen_attacker_goals,isolation_forest (unsupervised),injected_resisted,2108,0.0,
+unseen_attacker_goals,behaviour_only_xgb (no L1),benign,1054,0.0,
+unseen_attacker_goals,behaviour_only_xgb (no L1),benign_sensitive,2652,0.005279034690799397,
+unseen_attacker_goals,behaviour_only_xgb (no L1),injected_hijacked,5304,0.0,0.9956195244055068
+unseen_attacker_goals,behaviour_only_xgb (no L1),injected_legit_mix,5310,0.0035781544256120526,
+unseen_attacker_goals,behaviour_only_xgb (no L1),injected_resisted,2108,0.0,
+unseen_attacker_goals,full_lr,benign,1054,0.0,
+unseen_attacker_goals,full_lr,benign_sensitive,2652,0.007164404223227752,
+unseen_attacker_goals,full_lr,injected_hijacked,5304,0.0,0.9943679599499374
+unseen_attacker_goals,full_lr,injected_legit_mix,5310,0.007156308851224105,
+unseen_attacker_goals,full_lr,injected_resisted,2108,0.0,
+unseen_attacker_goals,full_rf,benign,1054,0.0,
+unseen_attacker_goals,full_rf,benign_sensitive,2652,0.00641025641025641,
+unseen_attacker_goals,full_rf,injected_hijacked,5304,0.0,0.9971839799749687
+unseen_attacker_goals,full_rf,injected_legit_mix,5310,0.007532956685499058,
+unseen_attacker_goals,full_rf,injected_resisted,2108,0.0,
+unseen_attacker_goals,full_xgb (proposed),benign,1054,0.0,
+unseen_attacker_goals,full_xgb (proposed),benign_sensitive,2652,0.005279034690799397,
+unseen_attacker_goals,full_xgb (proposed),injected_hijacked,5304,0.0,0.996558197747184
+unseen_attacker_goals,full_xgb (proposed),injected_legit_mix,5310,0.004331450094161958,
+unseen_attacker_goals,full_xgb (proposed),injected_resisted,2108,0.0,
+unseen_user_tasks,rule_baseline (L1 flag + risky tool),benign,1054,0.0,
+unseen_user_tasks,rule_baseline (L1 flag + risky tool),benign_sensitive,2652,0.17458521870286575,
+unseen_user_tasks,rule_baseline (L1 flag + risky tool),injected_hijacked,5304,0.0,0.6270337922403004
+unseen_user_tasks,rule_baseline (L1 flag + risky tool),injected_legit_mix,5310,0.3741996233521657,
+unseen_user_tasks,rule_baseline (L1 flag + risky tool),injected_resisted,2108,0.0,
+unseen_user_tasks,text_only_lr (L1 scores),benign,1054,0.0,
+unseen_user_tasks,text_only_lr (L1 scores),benign_sensitive,2652,0.09615384615384616,
+unseen_user_tasks,text_only_lr (L1 scores),injected_hijacked,5304,0.0,0.28754693366708384
+unseen_user_tasks,text_only_lr (L1 scores),injected_legit_mix,5310,0.17306967984934088,
+unseen_user_tasks,text_only_lr (L1 scores),injected_resisted,2108,0.0,
+unseen_user_tasks,isolation_forest (unsupervised),benign,1054,0.0,
+unseen_user_tasks,isolation_forest (unsupervised),benign_sensitive,2652,0.06825037707390648,
+unseen_user_tasks,isolation_forest (unsupervised),injected_hijacked,5304,0.0,0.8782853566958698
+unseen_user_tasks,isolation_forest (unsupervised),injected_legit_mix,5310,0.04839924670433145,
+unseen_user_tasks,isolation_forest (unsupervised),injected_resisted,2108,0.0,
+unseen_user_tasks,behaviour_only_xgb (no L1),benign,1054,0.0,
+unseen_user_tasks,behaviour_only_xgb (no L1),benign_sensitive,2652,0.0,
+unseen_user_tasks,behaviour_only_xgb (no L1),injected_hijacked,5304,0.0,0.9918648310387985
+unseen_user_tasks,behaviour_only_xgb (no L1),injected_legit_mix,5310,0.0009416195856873823,
+unseen_user_tasks,behaviour_only_xgb (no L1),injected_resisted,2108,0.0,
+unseen_user_tasks,full_lr,benign,1054,0.0,
+unseen_user_tasks,full_lr,benign_sensitive,2652,0.001885369532428356,
+unseen_user_tasks,full_lr,injected_hijacked,5304,0.0,0.987171464330413
+unseen_user_tasks,full_lr,injected_legit_mix,5310,0.0030131826741996233,
+unseen_user_tasks,full_lr,injected_resisted,2108,0.0,
+unseen_user_tasks,full_rf,benign,1054,0.0,
+unseen_user_tasks,full_rf,benign_sensitive,2652,0.0,
+unseen_user_tasks,full_rf,injected_hijacked,5304,0.0,0.9949937421777222
+unseen_user_tasks,full_rf,injected_legit_mix,5310,0.0003766478342749529,
+unseen_user_tasks,full_rf,injected_resisted,2108,0.0,
+unseen_user_tasks,full_xgb (proposed),benign,1054,0.0,
+unseen_user_tasks,full_xgb (proposed),benign_sensitive,2652,0.0,
+unseen_user_tasks,full_xgb (proposed),injected_hijacked,5304,0.0,0.9921777221526908
+unseen_user_tasks,full_xgb (proposed),injected_legit_mix,5310,0.0009416195856873823,
+unseen_user_tasks,full_xgb (proposed),injected_resisted,2108,0.0,
